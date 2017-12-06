@@ -469,7 +469,7 @@ lines(Avg_scores)
 bernie$CHI_MLU - Avg_scores
 
 ```
-Bernie does better than average TD child in all visits except the first one. The absolute distances between Bernie and average TD were the following: -0.0683 (visit1), 0.4054 (visit2), 1.1279 (visit3), 0.8716 (visit4), 0.7755 (visit5), 0.9644 (visit6).
+Bernie did better than average TD child in all visits except the first one. The absolute distances between Bernie and average TD were the following: -0.0683 (visit1), 0.4054 (visit2), 1.1279 (visit3), 0.8716 (visit4), 0.7755 (visit5), 0.9644 (visit6).
 
 
 - how does the child fare compared to the model predictions at Visit 6? Is the child below or above expectations? (tip: use the predict() function on Bernie's data only and compare the prediction with the actual performance of the child)
@@ -486,7 +486,7 @@ predict(mb,bernie)
 predict(m_final,bernie)
   # 3.468 for cross-validated model
 ```
-Bernie's real score on the 6th visit (3.448) is close to the model's predicted value (3.468), although the model slightly overestimates child’s performance.
+Bernie's real score on the 6th visit (3.448) was close to the model's predicted value (3.468), although the model slightly overestimated child’s performance.
 
 
 
